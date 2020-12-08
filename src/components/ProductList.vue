@@ -1,6 +1,6 @@
 <template>
   <div class="product-list">
-      <h1>productlist</h1>
+     
   </div>
 </template>
 
@@ -10,9 +10,11 @@ export default {
         productList (){
             console.log(this.$store.state.productList);
             return this.$store.state.productList;
+
         }
 
     }
+    
 }
 </script>
 

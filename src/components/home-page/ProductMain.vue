@@ -1,17 +1,18 @@
 <template>
   <div class="products">
-     <ProductList/>
-      <h1>hej</h1>
+    <ProductList/>
+    <ProductItem/>
   </div>
 </template>
 
  
  <script>
  import ProductList from "../ProductList"  
+ import ProductItem from "./ProductItem"
  export default{
    components:{
-     ProductList
-
+    ProductList,
+    ProductItem
    }
  }
 </script> 
