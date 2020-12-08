@@ -5,31 +5,49 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    ProductList: [
+    cart: [],
+    productList: [
       {
         category: "Shoes",
         brand: "Nike Sportswear",
         model: "AIR MAX PLUS III UNISEX - Sneakers",
-        price: 1795
-        
+        price: 1795,
+        images: []
       },
       { 
         category: "Shoes",
         brand: "Nike Sportswear",
-        model: "AIR MAX PLUS III UNISEX - Sneakers",
-        price: 1795
+        model: "SHOX TL - Sneakers",
+        price: 1799,
+        images: []
       },
       {
         category: "Shirt",
-        brand: "Nike Sportswear",
-        model: "AIR MAX PLUS III UNISEX - Sneakers",
-        price: 1795
+        brand: "Lacoste",
+        model: "Piké",
+        price: 999,
+        images: []
       },
       { 
         category: "Shirt",
         brand: "Nike Sportswear",
         model: "AIR MAX PLUS III UNISEX - Sneakers",
-        price: 1795
+        price: 1795,
+        images: []
+      },
+      { 
+        category: "Shirt",
+        brand: "Nike Sportswear",
+        model: "AIR MAX PLUS III UNISEX - Sneakers",
+        price: 1795,
+        images: []
+      },
+      { 
+        category: "Shirt",
+        brand: "Nike Sportswear",
+        model: "AIR MAX PLUS III UNISEX - Sneakers",
+        price: 1795,
+        images: []
       },
     ],
   },
