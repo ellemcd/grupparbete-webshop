@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Checkout from '../views/Checkout.vue'
+import ProductPage from '../views/ProductPage.vue'
+
 
 Vue.use(VueRouter)
 
@@ -16,6 +18,11 @@ const routes = [
     path: '/checkout',
     name: 'Checkout',
     component: Checkout
+  },
+  {
+    path: '/product-page', // dynamisk????
+    name: 'ProductPage',
+    component: ProductPage
   },
   {
     path: '/about',
