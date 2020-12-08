@@ -30,23 +30,37 @@ export default new Vuex.Store({
       },
       { 
         category: "Shirt",
-        brand: "Nike Sportswear",
-        model: "AIR MAX PLUS III UNISEX - Sneakers",
-        price: 1795,
+        brand: "Tommy Jeans",
+        model: "Long Sleeve",
+        price: 339,
+        images: []
+      },
+      { 
+        category: "Pants",
+        brand: "Jack & Jones",
+        model: "JJIMARCO JJCONNOR - Chinos",
+        price: 579,
+        images: []
+      },
+      { 
+        category: "Pants",
+        brand: "adidas Originals",
+        model: "Mono",
+        price: 629,
         images: []
       },
       { 
         category: "Shirt",
-        brand: "Nike Sportswear",
-        model: "AIR MAX PLUS III UNISEX - Sneakers",
-        price: 1795,
+        brand: "Tommy Jeans",
+        model: "Long Sleeve",
+        price: 339,
         images: []
       },
       { 
-        category: "Shirt",
-        brand: "Nike Sportswear",
-        model: "AIR MAX PLUS III UNISEX - Sneakers",
-        price: 1795,
+        category: "Pants",
+        brand: "Jack & Jones",
+        model: "JJIMARCO JJCONNOR - Chinos",
+        price: 579,
         images: []
       },
     ],
