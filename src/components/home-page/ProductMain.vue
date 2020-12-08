@@ -1,13 +1,11 @@
 <template>
   <div class="home">
-    
-   
-    <main>
-      <div class="product-1">
+
+    <div class="products">
         <div>
-            <h4>Small header</h4>
+            <h4>Skor</h4>
           <img
-            src="https://www.bankvogue.com/wp-content/uploads/2017/12/shutterstock_461853448-300x200.jpg"
+            src="https://img01.ztat.net/article/spp-media-p1/0e8f4ee7e3b733b7a4171a78c4455b86/721322dfb8da4ffe953f0c45ee606def.jpg?imwidth=606&filter=packshot"
           />
           <p>some text</p>
         </div>
@@ -21,6 +19,10 @@
  
  <script>
  export default {
+
+   data () {
+
+   }
  
  }
  </script>
