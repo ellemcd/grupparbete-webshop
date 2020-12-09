@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div class="products">
     <ProductList/>
     <ProductItem/>
