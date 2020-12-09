@@ -15,7 +15,10 @@ import Header from '../components/home-page/Header.vue';
 export default {
   components: { ProductMain, Header },
   
+  
 };
+
+
 
 </script>
 
