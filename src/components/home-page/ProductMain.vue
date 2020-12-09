@@ -1,5 +1,5 @@
 <template>
-<<<<<<< HEAD
+
   <div class="products">
     <ProductList/>
     <ProductItem/>
@@ -19,4 +19,4 @@
 </script> 
 
  
- </style>     
+  
