@@ -24,11 +24,10 @@
 </script>
 
 <style scoped>
-
 .nav-bar {
   align-items: center;
-  background: black;
-  color: yellow;
+  background: #1e1e1e;
+  color: #f5c12e;
   display: flex;
   height: 10vh;
   justify-content: space-between;
@@ -41,13 +40,13 @@
 }
 
 .links {
-  color: #fff;
-  font-size: 2rem;
+  color: #72767b;
+  font-size: 1.5rem;
   margin: 0 1rem;
   text-decoration: none;
 }
 
 .links:hover {
-  color: gray;
+  color: #fbeabc;
 }
 </style>
