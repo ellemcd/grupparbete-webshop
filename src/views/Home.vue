@@ -6,6 +6,7 @@
 </template>
 
 
+
 <script>
 import ProductMain from '../components/home-page/ProductMain.vue';
 import Header from '../components/home-page/Header.vue';
